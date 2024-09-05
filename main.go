@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/pabalberione/godesde0/ejercicios"
+	"github.com/pabalberione/godesde0/teclado"
 )
 
 func main() {
@@ -25,9 +23,11 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	numero, texto := ejercicios.COnvNumerico("ffff")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	teclado.IngresoNumeros()
 }
