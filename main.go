@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pabalberione/godesde0/files"
+	"github.com/pabalberione/godesde0/funciones"
 )
 
 func main() {
@@ -39,6 +39,7 @@ func main() {
 
 	//files.LeoArchivo()
 
-	files.LeoArchivoDos()
+	//files.LeoArchivoDos()
 
+	funciones.LlamarClosure()
 }
