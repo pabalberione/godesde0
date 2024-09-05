@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pabalberione/godesde0/teclado"
+	"github.com/pabalberione/godesde0/files"
 )
 
 func main() {
@@ -27,7 +27,18 @@ func main() {
 
 	numero, texto := ejercicios.COnvNumerico("ffff")
 	fmt.Println(numero)
-	fmt.Println(texto)*/
+	fmt.Println(texto)
 
-	teclado.IngresoNumeros()
+	iteraciones.IterarSin8()
+
+	fmt.Println(ejercicios.TablaMultiplicar())*/
+
+	//files.GrabaTabla()
+
+	//files.SumaTabla()
+
+	//files.LeoArchivo()
+
+	files.LeoArchivoDos()
+
 }
